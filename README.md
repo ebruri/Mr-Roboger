@@ -18,19 +18,19 @@ Mr. Roboger's Neighborhood takes a number from the user and returns a range of n
 * Numbers that contain a 2: all digits are replaced with "Boop!"
 * Numbers that contain a 3: all digits are replaced with "Won't you be my neighbor?"
 
-## Tests
+## Specs
 
 Describe: beepBoop()
 ```
 Test: "It should return an array with 1 through to inputted N"
 Code: beepBoop(3);
-Expected Output: 0123
+Expected Output: 0, 1, 2, 3
 ```
 
 ```
-Test: "It should replace numbers that contain 1 with "Beep!""
-Code: beepBoop(5);
-Expected Output: "Beep!" 2 3 4 5 
+Test: "It should replace numbers that contain 3 with "Won't you be my friend"
+Code: beepBoop(3);
+Expected Output: 0, 1, 2, "Won't you be my friend"
 ```
 
 ```

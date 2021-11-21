@@ -2,9 +2,13 @@ function beepBoop(input) {
   const number = parseInt(input);
   let array = [];
   for (var i = 0; i <= number; i++) {
-    array.push(i);
+    if (i.toString().includes("3")) {
+    array.push("\"Won't you be my neighbor?\"")
+    }else 
+    array.push(i)
     }
-  return array;
+  const newArray = array.join(", ");  
+  return newArray;  
 };
 
 $(document).ready(function() {
