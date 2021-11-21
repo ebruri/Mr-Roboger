@@ -28,21 +28,21 @@ Expected Output: 0, 1, 2, 3
 ```
 
 ```
-Test: "It should replace numbers that contain 3 with "Won't you be my friend"
+Test: "It should replace numbers that contain 3 with "Won't you be my friend?"
 Code: beepBoop(3);
-Expected Output: 0, 1, 2, "Won't you be my friend"
+Expected Output: 0, 1, 2, "Won't you be my friend?"
 ```
 
 ```
-Test: "It should replace numbers that contsin 2 with "Boop"
+Test: "It should replace numbers that contain 2 with "Boop!"
 Code: beepBoop(2);
-Expected Output: 0, 1, "Boop"
+Expected Output: 0, 1, "Boop!"
 ```
 
 ```
-Test: 
-Code: beepBoop();
-Expected Output: 
+Test: "It should replace numbers that contain 1 with "Beep!"
+Code: beepBoop(3);
+Expected Output: 0, "Beep!", "Boop!", "Won't you be my friend?"
 ```
 
 ## GitHub Pages
