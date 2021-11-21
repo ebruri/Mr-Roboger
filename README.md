@@ -45,6 +45,12 @@ Code: beepBoop(3);
 Expected Output: 0, "Beep!", "Boop!", "Won't you be my friend?"
 ```
 
+```
+Test: "It should add the user name at the end of "Won't you be my friend?"
+Code: beepBoop(3, Ebru);
+Expected Output: 0, "Beep!", "Boop!", "Won't you be my friend, Ebru?"
+```
+
 ## GitHub Pages
 
 [Click here](https://ebruri.github.io/Programming-Language-Suggester/) to check it out in GitHub pages.
