@@ -24,6 +24,6 @@ $(document).ready(function() {
     const input = $("#input").val();
     const name = $("#name").val();
     const roboger = beepBoop(input, name);
-    $("#result").html(roboger);
+    $(".modal-body").html(roboger);
   });
 });
