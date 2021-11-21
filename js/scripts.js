@@ -1,7 +1,6 @@
 function beepBoop(input, name) {
-  const number = parseInt(input);
   let array = [];
-  for (var i = 0; i <= number; i++) {
+  for (let i = 0; i <= input; i++) {
     if (i.toString().includes("3")) {
       const newString = ("\"Won't you be my neighbor,").concat(' ' + name + '?"');
       array.push(newString);
